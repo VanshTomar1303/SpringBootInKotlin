@@ -13,6 +13,12 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
+// User controller
+// GET - http://localhost:8080/user/getAllLikedBlogs
+// GET - http://localhost:8080/user/getAllSavedBlogs
+// POST - http://localhost:8080/user/likeBlog/{blogId}
+// POST - http://localhost:8080/user/savedBlog/{blogId}
+
 @RestController
 @RequestMapping("/user")
 class UserController(

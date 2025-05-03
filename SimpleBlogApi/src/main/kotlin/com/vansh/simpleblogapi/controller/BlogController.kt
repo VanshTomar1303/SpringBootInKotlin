@@ -18,6 +18,12 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.time.Instant
 
+// Blog controller
+// GET - http://localhost:8080/blog/getAllBlogs
+// GET - http://localhost:8080/blog/{id}
+// POST - http://localhost:8080/blog/saveBlog
+// DELETE - http://localhost:8080/blog/{id}
+
 @RestController
 @RequestMapping("/blog")
 class BlogController(

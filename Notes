@@ -1,0 +1,13 @@
+* What is API (Application Programming Interface)?
+  - Api is just a way that two application interact with each other.
+  - Api is a set of rules and protocols that allows different software application
+    to communicate and interact with each other, enabling them to exchange data and functionality.
+
+* What is REST API?
+  RESTFUL API -> A type of API that follows the principles of Representational State Transfer,using HTTP requests to
+  interact with data and resources.
+  An API that work via urls.
+
+* What is Spring Boot?
+  Java based framework.
+  Spring Boot is a Java framework that helps developers build applications that are production-ready. It's used to create web applications, microservices, and console applications.

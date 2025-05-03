@@ -17,6 +17,12 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.time.Instant
 
+// Comment controller
+// GET - http://localhost:8080/comments/{blogId}
+// POST - http://localhost:8080/comments/postComments/{blogID}
+// GET - http://localhost:8080/comments/getByOwnerId/{ownerId}
+// DELETE - http://localhost:8080/comments/{ownerId}
+
 @RestController
 @RequestMapping("/comments")
 class CommentController(
